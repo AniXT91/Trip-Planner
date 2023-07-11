@@ -14,8 +14,8 @@ export default function App() {
   }
 
   //For working X (deleting the items)
-  function deleteItemsHandler(id) {
-    setItems((items) => items.filter((item) => item.id !== id));
+  function deleteItemsHandler(id1) {
+    setItems((items) => items.filter((item) => item.id !== id1));
   }
 
   //For CheckBox functionality
